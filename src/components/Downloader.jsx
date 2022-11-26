@@ -9,6 +9,8 @@ const Downloader = (props) => {
 
       {props.error ? <div className='font-semibold text-xl my-10 text-red-600' id='isError'>Invalid url...Please enter valid url</div> : null}
 
+      {props.exhaust ? <div className='font-semibold text-xl my-10 text-red-600' id='isError'>Sorry, api's today's limit has reached. Try 24 hrs later.</div> : null}
+
       {!props.error ? <ul className='my-10 flex flex-col md:flex-row' id='formatList'>{props.list}</ul> : null}
 
 

@@ -12,6 +12,7 @@ const Header = () => {
   const [videoId, setVid] = useState(null);
   const [list, setList] = useState(null);
   const [isError, setisError] = useState(false);
+  const [isExhaust, setisExh] = useState(false);
 
   const handleOnchangeInput = (event) => {
     setUrl(event.target.value);
@@ -41,7 +42,10 @@ const Header = () => {
     }
     else if (response.status === 'fail') {
       setisError(true);
-    };
+    }
+    else if(!response.status) {
+      setisExh(true);
+    }
   }
 
   function handleClear() {
@@ -49,6 +53,7 @@ const Header = () => {
     setisError(null);
     setList(null);
     setVid(null);
+    setisExh(null);
   }
 
   return (
@@ -73,7 +78,7 @@ const Header = () => {
 
       </div>
 
-      <Downloader list={list} error={isError} />
+      <Downloader list={list} error={isError} exhaust={isExhaust}/>
     </>
   )
 }
