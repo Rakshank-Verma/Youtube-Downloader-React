@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Youtube-Downloader-React/static/css/main.174bf468.css",
-    "main.js": "/Youtube-Downloader-React/static/js/main.330ce69f.js",
+    "main.css": "/Youtube-Downloader-React/static/css/main.ddf884b7.css",
+    "main.js": "/Youtube-Downloader-React/static/js/main.29796d8c.js",
     "index.html": "/Youtube-Downloader-React/index.html",
-    "main.174bf468.css.map": "/Youtube-Downloader-React/static/css/main.174bf468.css.map",
-    "main.330ce69f.js.map": "/Youtube-Downloader-React/static/js/main.330ce69f.js.map"
+    "main.ddf884b7.css.map": "/Youtube-Downloader-React/static/css/main.ddf884b7.css.map",
+    "main.29796d8c.js.map": "/Youtube-Downloader-React/static/js/main.29796d8c.js.map"
   },
   "entrypoints": [
-    "static/css/main.174bf468.css",
-    "static/js/main.330ce69f.js"
+    "static/css/main.ddf884b7.css",
+    "static/js/main.29796d8c.js"
   ]
 }
